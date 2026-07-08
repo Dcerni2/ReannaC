@@ -10,10 +10,9 @@
   --ink: #2c2925;
   --ink-soft: #6e6559;
   --line: rgba(44, 41, 37, 0.14);
-  --accent: #6f7652;
-  --accent-gold: #b5965f;
-  --accent-clay: #b4866f;
-  --accent-muted: #83885f;
+  --accent: #596042;
+  --accent-gold: #a3813f;
+  --accent-clay: #a06f57;
   --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --sans: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --max: 880px;
@@ -132,8 +131,8 @@ h1 {
 }
 
 .subtitle .accent-word {
-  color: var(--accent-muted);
-  font-weight: 400;
+  color: var(--accent);
+  font-weight: 500;
 }
 
 .hero-image {
@@ -237,8 +236,8 @@ h1 {
 }
 
 .block-body .accent-word {
-  color: var(--accent-muted);
-  font-weight: 400;
+  color: var(--accent);
+  font-weight: 500;
 }
 
 /* identity map */
