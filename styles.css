@@ -101,11 +101,11 @@ h1 {
 .headline {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(1.35rem, 3vw, 1.7rem);
-  line-height: 1.35;
+  font-size: clamp(1.3rem, 2.4vw, 1.5rem);
+  line-height: 1.32;
   color: var(--ink);
-  max-width: 38ch;
-  margin: 0 0 1.4rem;
+  max-width: 42ch;
+  margin: 0;
 }
 
 .headline .accent-gold {
@@ -121,18 +121,6 @@ h1 {
 .headline .accent-clay {
   color: var(--accent-clay);
   font-weight: 600;
-}
-
-.subtitle {
-  font-size: 1.02rem;
-  color: var(--ink-soft);
-  max-width: 44ch;
-  margin: 0;
-}
-
-.subtitle .accent-word {
-  color: var(--accent);
-  font-weight: 500;
 }
 
 .hero-image {
@@ -437,7 +425,7 @@ h1 {
 @media (min-width: 720px) {
   .hero {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 6rem 0 4.5rem;
     gap: 3.5rem;
@@ -445,6 +433,7 @@ h1 {
 
   .hero-text {
     flex: 1;
+    padding-top: 0.5rem;
   }
 
   .hero-image {
