@@ -237,32 +237,18 @@ h1 {
 }
 
 .identity-map li {
-  position: relative;
   font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.18rem;
+  line-height: 1.45;
   color: var(--ink);
-  padding: 0.55rem 0 0.55rem 1.15rem;
+  padding: 0.7rem 0;
   border-bottom: 1px solid var(--line);
-}
-
-.identity-map li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 1.05rem;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--accent);
 }
 
 .identity-map li:first-child {
   padding-top: 0;
-}
-
-.identity-map li:first-child::before {
-  top: 0.5rem;
 }
 
 .identity-map li:last-child {
