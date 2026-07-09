@@ -236,6 +236,10 @@ h1 {
   max-width: 58ch;
 }
 
+.identity-map + .block-body {
+  margin-top: 1.6rem;
+}
+
 .identity-map li {
   font-family: var(--serif);
   font-style: normal;
