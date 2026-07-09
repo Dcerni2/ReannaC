@@ -66,6 +66,11 @@ a:hover {
   border-color: var(--accent);
 }
 
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 /* ---------------- Hero ---------------- */
 
 .hero {
@@ -272,7 +277,7 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--bg-soft);
-  white-space: nowrap;
+  max-width: 100%;
 }
 
 /* quick answers */
